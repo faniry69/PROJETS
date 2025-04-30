@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 2vw;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 2vw;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #c6e2ff;
+    text-shadow:
+        0 0 6px rgba(202,228,225,0.92),
+        0 0 30px rgba(202,228,225,0.34),
+        0 0 12px rgba(30,132,242,0.52),
+        0 0 21px rgba(30,132,242,0.92),
+        0 0 34px rgba(30,132,242,0.78),
+        0 0 54px rgba(30,132,242,0.92);
+    font-size: 2vw;
+    font-family: lum;
+}
+
+nav ul li a:hover{
+    color: #c6e2ff;
+    text-shadow: 
+        0 0 6px rgba(202,228,225,0.92),
+        0 0 30px rgba(224, 202, 228, 0.34),
+        0 0 12px rgba(157, 30, 242, 0.52),
+        0 0 21px rgba(157, 30, 242, 0.92),
+        0 0 34px rgba(147, 30, 242, 0.78),
+        0 0 54px rgba(182, 30, 242, 0.92);
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container{
+    max-width: 1400px;
+    padding-left: 25px;
+}
+
+@font-face {
+    font-family: lum;
+    src: url(../font/Monoton/Monoton-Regular.ttf);
+}
+
+body{
+    background: url(../image/bg/3.jpg);
+    background-attachment: fixed;
+}
+
+.col2{
+    flex-basis: 25%;
+    min-width: 200px;
+    padding: 15px;
+    transition: transform 0.5s;
+    transform: scale(0.75);
+}
+
+.col2 img{
+    width: 100%;
+}
+
+@font-face {
+    font-family: font2;
+    src: url(../font/Roboto-Light.ttf);
+}
+
+.col2 h3,p{
+    color: #fff;
+    font-family: font2;
+}
+
+.col2:hover,.col2:focus 
+{
+	transform:scale(1);
+	transform-origin:top center;
+	z-index:1;
+	background: transparent;
+	transition:1s;
+}
+.col2:before 
+{
+	content:attr(title);
+	position:absolute;
+	color:white;
+	font-family: "menu";
+	bottom:0;
+	box-shadow:0 0 3px white;
+	display:block;
+	width:100%;
+	background:rgba(0,0,0,0.3);
+}
+
+.ex{
+    display: flex;
+    align-items: center;
+}
+
+@font-face {
+    font-family: font1;
+    src: url(../font/ToonyLine_PERSONAL_USE_ONLY.otf);
+}
+
+.txt {
+    color: #fff;
+    font-family: font1;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: rgba(82, 7, 221, 0.993) 2px 4px 1px;
+}
+
+.zesta {
+    background-color: #007bff;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 8px 10px;
+    margin-left: 13%;
+    margin-top: 10%;
+    font-family: font2;
+    cursor: pointer;
+}
+.zesta:hover{
+    background-color: rgb(162, 0, 255);
+    color: whitesmoke;
+}
+
+/* PANIER */
+.cart-icon {
+    cursor: pointer;
+    position: fixed;
+    margin-top: 5%;
+    right: 15px; /* Ajustez cette valeur pour contrôler la distance depuis la droite */
+    font-size: 48px; /* Ajustez la taille de la police pour agrandir l'icône */
+}
+
+.cart-icon:hover{
+    text-shadow: 
+        0 0 6px rgba(202,228,225,0.92),
+        0 0 20px rgba(224, 202, 228, 0.34),
+        0 0 2px rgba(157, 30, 242, 0.52),
+        0 0 11px rgba(157, 30, 242, 0.92),
+        0 0 24px rgba(147, 30, 242, 0.78),
+        0 0 44px rgba(182, 30, 242, 0.92);
+}
+
+.cart {
+    display: none;   
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background: linear-gradient(to top right, #003366 5%, #ccccff 55%);
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-family: font2;
+}
+/* .product {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+} */
+
+.soratrapanier {
+    color: #072E33;
+    text-align: center
+    margin-left: 20%;
+}
+
+.gg { 
+    list-style: none;
+}
+
+.zesta1 {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 10px;
+    margin-left: 35%;
+    margin-top: 8%;
+    font-family: font2;
+    cursor: pointer;
+}
+.zesta1:hover{
+    opacity: 0.7;
+}
+
+

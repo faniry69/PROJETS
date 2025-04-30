@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "font1";
+    src: url(../font/HindMadurai-Regular.ttf);
+}
+
+@font-face {
+    font-family: "font2";
+    src: url(../font/Sunday\ Grapes.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-image: url(../img/accessoires-pour-soins-jeux-animaux.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.banner h2 {
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 900;
+}
+
+.content {
+    padding: 3% 0;
+}
+
+.container-btns {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+}
+
+.btn-first {
+    border-radius: 5px;
+    text-decoration: none;
+    border: 2px solid #fff;
+    outline: none;
+    background: #fff;
+    font-size: 30px;
+    padding: 20px;
+    width: 300px;
+    color: #333;
+    cursor: pointer;
+}
+
+.btn-first:nth-child(1){
+    margin-right: 30xp;
+}
+
+.btn-first:hover {
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    background: #97c8df;
+    color: #f1f1f1;
+} 

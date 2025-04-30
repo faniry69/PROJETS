@@ -1,0 +1,99 @@
+/*body{
+    background-color: pink;
+}*/
+body{ 
+    /*user-select: none;*/
+   background: linear-gradient(to top right, #003366 5%, #ccccff 55%);
+   background-attachment: fixed;
+}
+a{
+    color: blue;
+    border-color: blue;
+}
+input{
+   height: 40px;
+   text-align: center;
+   border-radius: 50px;
+   border-color: blue;
+   width: 200px;
+}
+h3{
+   margin-top: 10px;
+   margin-bottom: 20px;
+   font-size: 25px;
+   color: rgb(127, 33, 191);
+   text-decoration: underline;
+   font-family :Arial, Helvetica, sans-serif ;
+}
+h5{
+   margin: 15px;
+   font-size: 20px;
+}
+hr{
+   width: 200px;
+}
+
+#text,#text2{
+   margin: 5px;
+   color: blue;
+   font: 16px solid;
+}
+#gain{
+   margin: 2px;
+}
+#canvas{
+   border: solid black 5px;
+   border-radius: 20px;
+   background-image: url(../img/sky-night.gif);
+   /*background-color: pink;*/
+    background-color: transparent; 
+}
+#tout{
+   display: flex;
+   justify-content : space-around;
+}
+#menu{
+   vertical-align: middle;
+   text-align: center;
+   width: 400px;
+   margin-right: 50px;
+   border: none;
+   border-radius: 25px;
+   background-color: rgba(240, 248, 255, 0.39);
+
+}
+#replay{
+   margin-top: 10px;
+   background: none;
+   height: 45px;
+   width: 100px;
+   text-align: center;
+   border: 2px solid blue;
+   color: blue;
+   border-radius: 50px;
+}
+#miser{
+   margin-top: 10px;
+   padding: 10px;
+   height: 46px;
+   background : none;
+   border-color: blue;
+   color: blue;
+   width: 80px;
+   border-radius: 50px;
+}
+#retour{
+   margin-top: 10px;
+   padding: 10px;
+   height: 20px;
+   width: 50px;
+   text-decoration: none;
+   border-radius: 50px;
+   border: 2px solid;
+}
+input:hover,#replay:hover,#miser:hover,#retour:hover{
+   background-color: blue;
+   color: white;
+   border-color: white;
+   transition-duration: 1s;
+}

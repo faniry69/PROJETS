@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/styleshop.css">
+    <link type = "image/x-icon" rel = "shortcut icon" href ="../image/7625311_ring_planet_space_astronomy_universe_icon.png"/>
+    <title>Space xi</title>
+</head>
+<body>
+        <!-- PANIER -->
+        <div class="cart-icon" onclick="toggleCart()">🛒</div>
+        <div id="cart" class="cart">
+            <h2 class="soratrapanier">Votre panier</h2>
+            <ul id="cart-items" class="gg">
+                <!-- Les articles ajoutés au panier seront listés ici -->
+            </ul>
+            <p class="soratrapanier"><strong>Total : </strong> <span id="cart-total">0</span> Ariary</p>
+           <a href="../jetX/jetX.html"> <button class="zesta1" onclick="redirectToCheckout()">Acheter</button></a>
+        </div>
+    <section class="headersect">
+        <div class="container">
+            <header class="navbar">
+                <div class="logo">
+                    <img src="../image/31251_astroid_planet_moon_icon.png" alt="">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="../accueil.html">acceuil</a></li>
+                        <li><a href="#">produit</a></li>
+                        <li><a href="../other page/apropos.html">à propos</a></li>
+                        <li><a href="">contact</a></li>
+                        <li><a href="../other page/login.html">account</a></li>
+                    </ul>
+                    <img src="../image/7625311_ring_planet_space_astronomy_universe_icon.png" alt="" width="50px">
+                </nav>
+            </header>
+        </div>
+    </section>
+    <!-- produit -->
+    <section class="featured">
+        <div class="container">
+            <h2 class="txt">FUNKO POP</h2>
+            <div class="ex">
+                <div class="row">
+                        <div class="col2">
+                            <img src="../image/produit2/fig/1.jpg" alt="">
+                            <h3>Figurine Gardien de la galaxie : Cosmo</h3>
+                            <p>110K Ariary</p>
+                            <button class="zesta" onclick="addToCart('Cosmo', 110000)">Ajouter au panier</button>
+                        </div>
+                        <div class="col2">
+                            <img src="../image/produit2/fig/2.jpg" alt="">
+                            <h3>Figurine Marvel : Tony Stark</h3>
+                            <p>105K Ariary</p>
+                            <button class="zesta" onclick="addToCart('Tony Stark', 105000)">Ajouter au panier</button>
+                        </div>
+                        <div class="col2">
+                            <img src="../image/produit2/fig/3.jpg" alt="">
+                            <h3>Figurine Star Wars : R2-D2</h3>
+                            <p>150K Ariary</p>
+                            <button class="zesta" onclick="addToCart('R2-D2', 150000)">Ajouter au panier</button>
+                        </div>
+                        <div class="col2">
+                            <img src="../image/produit2/fig/4.jpg" alt="">
+                            <h3>Figurine Star Wars : Sabine Wren</h3>
+                            <p>100K Ariary</p>
+                            <button class="zesta" onclick="addToCart('Sabine Wren', 100000)">Ajouter au panier</button>
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="col2">
+                        <img src="../image/produit2/fig/5.jpg" alt="">
+                        <h3>Figurine Star Wars : The Mandalorian</h3>
+                        <p>110K Ariary</p>
+                        <button class="zesta" onclick="addToCart('The Mandalorian', 110000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/fig/6.jpg" alt="">
+                        <h3>Figurine Marvel : Taskmaster</h3>
+                        <p>105K Ariary</p>
+                        <button class="zesta" onclick="addToCart('Taskmaster', 105000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/fig/7.jpg" alt="">
+                        <h3>Figurine Star Wars : Stormtrooper</h3>
+                        <p>100K Ariary</p>
+                        <button class="zesta" onclick="addToCart('Stormtrooper', 100000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/fig/8.jpg" alt="">
+                        <h3>Figurine Star Wars : Wicket</h3>
+                        <p>105K Ariary</p>
+                        <button class="zesta" onclick="addToCart('Wicket', 105000)">Ajouter au panier</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col2">
+                        <img src="../image/produit2/fig/9.jpg" alt="">
+                        <h3>Figurine Star Wars : Chewbacca</h3>
+                        <p>100K Ariary</p>
+                        <button class="zesta" onclick="addToCart('Chewbacca', 100000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/fig/10.jpg" alt="">
+                        <h3>Figurine Star Wars : Dark Vader</h3>
+                        <p>105K Ariary</p>
+                        <button class="zesta" onclick="addToCart('Dark Vader', 105000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/fig/11.jpg" alt="">
+                        <h3>Figurine Star Wars : Admiral Ackbar</h3>
+                        <p>100K Ariary</p>
+                        <button class="zesta" onclick="addToCart('Admiral Ackbar', 100000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/fig/12.jpg" alt="">
+                        <h3>Figurine Gardien de la galaxie : Groot</h3>
+                        <p>110K Ariary</p>
+                        <button class="zesta" onclick="addToCart('Groot', 110000)">Ajouter au panier</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col2">
+                        <img src="../image/produit2/fig/13.jpg" alt="">
+                        <h3>Figurine Star Wars : K-250(JEDHA)</h3>
+                        <p>100K Ariary</p>
+                        <button class="zesta" onclick="addToCart('K-250', 100000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/fig/14.jpg" alt="">
+                        <h3>Figurine Star Wars : Ahsoka</h3>
+                        <p>100K Ariary</p>
+                        <button class="zesta" onclick="addToCart('Ahsoka', 100000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/fig/15.jpg" alt="">
+                        <h3>Figurine Gardien de la galaxie : Mantis</h3>
+                        <p>100K Ariary</p>
+                        <button class="zesta" onclick="addToCart('Mantis', 100000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/fig/16.jpg" alt="">
+                        <h3>Figurine Gardien de la galaxie : Star-Lord</h3>
+                        <p>100K Ariary</p>
+                        <button class="zesta" onclick="addToCart('Star-Lord', 100000)">Ajouter au panier</button>
+                    </div>
+                </div>
+            </div>
+            <h2 class="txt">JEUX</h2>
+            <div class="ex">
+                <div class="row">
+                        <div class="col2">
+                            <img src="../image/produit2/jeu/1.jpg" alt="">
+                            <h3>Dead Space</h3>
+                            <p>200K Ariary</p>
+                            <button class="zesta" onclick="addToCart('Dead Space', 200000)">Ajouter au panier</button>
+                        </div>
+                        <div class="col2">
+                            <img src="../image/produit2/jeu/2.jpg" alt="">
+                            <h3>Call Of Duty VANGUARD</h3>
+                            <p>205K Ariary</p>
+                            <button class="zesta" onclick="addToCart('COD VANGUARD', 205000)">Ajouter au panier</button>
+                        </div>
+                        <div class="col2">
+                            <img src="../image/produit2/jeu/3.jpg" alt="">
+                            <h3>GHOSTRUNNER</h3>
+                            <p>200K Ariary</p>
+                            <button class="zesta" onclick="addToCart('GHOSTRUNNER', 200000)">Ajouter au panier</button>
+                        </div>
+                        <div class="col2">
+                            <img src="../image/produit2/jeu/4.jpg" alt="">
+                            <h3>Deliver Us The Moon</h3>
+                            <p>300K Ariary</p>
+                            <button class="zesta" onclick="addToCart('Deliver Us To The Moon', 300000)">Ajouter au panier</button>
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="col2">
+                        <img src="../image/produit2/jeu/5.jpg" alt="">
+                        <h3>Ratchet Clank</h3>
+                        <p>205K Ariary</p>
+                        <button class="zesta" onclick="addToCart('Ratchet Clank', 205000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/jeu/6.jpg" alt="">
+                        <h3>The Callisto Protocol</h3>
+                        <p>300K Ariary</p>
+                        <button class="zesta" onclick="addToCart('The Callisto Protocol', 300000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/jeu/7.jpg" alt="">
+                        <h3>Star Wars Saga Sky Walker</h3>
+                        <p>400K Ariary</p>
+                        <button class="zesta" onclick="addToCart('Sky Walker', 400000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/jeu/8.jpg" alt="">
+                        <h3>Star Wars JEDI Fallen Order</h3>
+                        <p>310K Ariary</p>
+                        <button class="zesta" onclick="addToCart('Fallen Order', 310000)">Ajouter au panier</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col2">
+                        <img src="../image/produit2/jeu/9.jpg" alt="">
+                        <h3>GODFALL</h3>
+                        <p>200K Ariary</p>
+                        <button class="zesta" onclick="addToCart('GODFALL', 200000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/jeu/10.jpg" alt="">
+                        <h3>Nerf Legend the game</h3>
+                        <p>200K Ariary</p>
+                        <button class="zesta" onclick="addToCart('Nerf Legend', 200000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/jeu/11.jpg" alt="">
+                        <h3>MARVEL Gardien de la galaxie </h3>
+                        <p>210K Ariary</p>
+                        <button class="zesta" onclick="addToCart('Gardien de la galaxie', 210000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/jeu/12.jpg" alt="">
+                        <h3>KAO the Kangaroo</h3>
+                        <p>205K Ariary</p>
+                        <button class="zesta" onclick="addToCart('KAO The Kangaroo', 205000)">Ajouter au panier</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col2">
+                        <img src="../image/produit2/jeu/13.jpg" alt="">
+                        <h3>WRECKFEST</h3>
+                        <p>305K Ariary</p>
+                        <button class="zesta" onclick="addToCart('WRECKFEST', 305000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/jeu/14.jpg" alt="">
+                        <h3>Chorvs</h3>
+                        <p>299K Ariary</p>
+                        <button class="zesta" onclick="addToCart('Chorvs', 299000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/jeu/15.jpg" alt="">
+                        <h3>Destruction ALLSTARS</h3>
+                        <p>200K Ariary</p>
+                        <button class="zesta" onclick="addToCart('Destruction ALLSTARS', 200000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/jeu/16.jpg" alt="">
+                        <h3>Planet Coaster</h3>
+                        <p>200K Ariary</p>
+                        <button class="zesta" onclick="addToCart('Planet Coaster', 200000)">Ajouter au panier</button>
+                    </div>
+                </div>
+            </div>
+            <h2>PROJECTEURS</h2>
+            <div class="ex">
+                <div class="row">
+                        <div class="col2">
+                            <img src="../image/produit2/proj/1.jpg" alt="">
+                            <h3>Projecteur d'étoile de planetarium</h3>
+                            <p>160K Ariary</p>
+                            <button class='zesta' onclick="addToCart('Projecteur d`etoile de planetarium ', 45000)">Ajouter au panier</button>
+                        </div>
+                        <div class="col2">
+                            <img src="../image/produit2/proj/2.jpg" alt="">
+                            <h3>CAIYUE projecteur ciel-étoile</h3>
+                            <p>164K Ariary</p>
+                            <button class='zesta' onclick="addToCart('CAIYUE Projecteur ciel-étoile',164000)">Ajouter au panier</button>
+                        </div>
+                        <div class="col2">
+                            <img src="../image/produit2/proj/3.jpg" alt="">
+                            <h3>Projecteur Galaxy ave USB</h3>
+                            <p>115K Ariary</p>
+                            <button class='zesta' onclick="addToCart('Projecteur Galaxy avec USB', 115000)">Ajouter au panier</button>                        </div>
+                        <div class="col2">
+                            <img src="../image/produit2/proj/4.jpg" alt="">
+                            <h3>Lampe de projection couleur Magic </h3>
+                            <p>133K Ariary</p>
+                            <button class='zesta' onclick="addToCart('Lampe de projection couleur Magic', 133000)">Ajouter au panier</button>
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="col2">
+                        <img src="../image/produit2/proj/5.jpg" alt="">
+                        <h3>Meinice projecteur ciel-étoile</h3>
+                        <p>110K Ariary</p>
+                        <button class='zesta' onclick="addToCart('Meinice Projecteur', 110000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/proj/6.jpg" alt="">
+                        <h3>KAMHX projecteur Astronaute</h3>
+                        <p>142K Ariary</p>
+                        <button class='zesta' onclick="addToCart('KAMHX Projecteur Astronaute', 142000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/proj/7.jpg" alt="">
+                        <h3>SUPPOU projecteur ciel-étoilé</h3>
+                        <p>210K Ariary</p>
+                        <button class='zesta' onclick="addToCart('SUPPOU Projecteur ciel-étoilé', 210000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/proj/8.jpg" alt="">
+                        <h3>NISIYAMA  Astronaute</h3>
+                        <p>210K Ariary</p>
+                        <button class='zesta' onclick="addToCart('NISIYAMA Astronaute', 210000)">Ajouter au panier</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col2">
+                        <img src="../image/produit2/proj/9.jpg" alt="">
+                        <h3>Playground projecteur Galaxy </h3>
+                        <p>165K Ariary</p>
+                        <button class='zesta' onclick="addToCart('Playground Projecteur Galaxy', 165000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/proj/10.jpg" alt="">
+                        <h3>Projecteur ciel-étoile Alexa</h3>
+                        <p>228K Ariary</p>
+                        <button class='zesta' onclick="addToCart('Projecteur ciel-étoile Alexa', 228000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/proj/11.jpg" alt="">
+                        <h3>Veilleuse nébuleur LED</h3>
+                        <p>152K Ariary</p>
+                        <button class='zesta' onclick="addToCart('Veilleuse nébuleur', 152000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/proj/12.jpg" alt="">
+                        <h3>JOnathan projecteur glady</h3>
+                        <p>99K Ariary</p>
+                        <button class='zesta' onclick="addToCart('JOnathan Projecteur glady', 99000)">Ajouter au panier</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col2">
+                        <img src="../image/produit2/proj/13.jpg" alt="">
+                        <h3>ANSTEIKER Veilleuse </h3>
+                        <p>91K Ariary</p>
+                        <button class='zesta' onclick="addToCart('ANSTEIKER veilleuse', 91000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/proj/14.jpg" alt="">
+                        <h3>TONAR lampe a fibre</h3>
+                        <p>71K Ariary</p>
+                        <button class='zesta' onclick="addToCart('TONAR lampe a fibre', 71000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/proj/15.jpg" alt="">
+                        <h3>NEKENA Projecteur veilleuse</h3>
+                        <p>118K Ariary</p>
+                        <button class='zesta' onclick="addToCart('NEKENA Projecteur Veilleuse', 118000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/proj/16.jpg" alt="">
+                        <h3>NIRY BE projecteur atody</h3>
+                        <p>100K Ariary</p>
+                        <button class='zesta' onclick="addToCart('NIRY BE Projecteur Atody', 100000)">Ajouter au panier</button>
+                    </div>
+                </div>
+            </div>
+            <h2>AUTRES</h2>
+            <div class="ex">
+                <div class="row">
+                        <div class="col2">
+                            <img src="../image/produit2/au/1.jpg" alt="">
+                            <h3>NKRR foam posit</h3>
+                            <p>1M Ariary</p>
+                            <button class='zesta' onclick="addToCart('NKRR foam posit', 1000000)">Ajouter au panier</button>
+                        </div>
+                        <div class="col2">
+                            <img src="../image/produit2/au/2.jpg" alt="">
+                            <h3>Coloring book</h3>
+                            <p>44K Ariary</p>
+                            <button class='zesta' onclick="addToCart('Coloring Book', 44000)">Ajouter au panier</button>
+                        </div>
+                        <div class="col2">
+                            <img src="../image/produit2/au/3.jpg" alt="">
+                            <h3>Deco éspace</h3>
+                            <p>40K Ariary</p>
+                            <button class='zesta' onclick="addToCart('Deco Espace', 40000)">Ajouter au panier</button>
+                        </div>
+                        <div class="col2">
+                            <img src="../image/produit2/au/4.jpg" alt="">
+                            <h3>STAR WARS sword</h3>
+                            <p>250k</p>
+                            <button class='zesta' onclick="addToCart('STAR WARS sword', 250000)">Ajouter au panier</button>
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="col2">
+                        <img src="../image/produit2/au/5.jpg" alt="">
+                        <h3>Lego STAR WARS</h3>
+                        <p>324K Ariary</p>
+                        <button class='zesta' onclick="addToCart('Lego STAR WARS', 324000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/au/6.jpg" alt="">
+                        <h3>Enigme space</h3>
+                        <p>50K Ariary</p>
+                        <button class='zesta' onclick="addToCart('Enigme space', 50000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/au/7.jpg" alt="">
+                        <h3>Buki mini-lab</h3>
+                        <p>54K Ariary</p>
+                        <button class='zesta' onclick="addToCart('Buki mini-lab', 54000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/au/8.jpg" alt="">
+                        <h3>Buki exploration</h3>
+                        <p>90K Ariary</p>
+                        <button class='zesta' onclick="addToCart('Biki exploration', 90000)">Ajouter au panier</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col2">
+                        <img src="../image/produit2/au/9.jpg" alt="">
+                        <h3>Buki Planetarium</h3>
+                        <p>80K Ariary</p>
+                        <button class='zesta' onclick="addToCart('Buki planetarium', 80000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/au/10.jpg" alt="">
+                        <h3>JET toy</h3>
+                        <p> 989K Ariary</p>
+                        <button class='zesta' onclick="addToCart('Jet Toy', 989000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/au/11.jpg" alt="">
+                        <h3>jet x-0</h3>
+                        <p>80K Ariary</p>
+                        <button class='zesta' onclick="addToCart('Jet x-0', 80000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/au/12.jpg" alt="">
+                        <h3>Buki Planetarium</h3>
+                        <p>110K Ariary</p>
+                        <button class='zesta' onclick="addToCart('Buki Planetarium', 110000)">Ajouter au panier</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col2">
+                        <img src="../image/produit2/au/13.jpg" alt="">
+                        <h3>Coffet mosaiique</h3>
+                        <p>120K Ariary</p>
+                        <button class='zesta' onclick="addToCart('Coffet Mosaiique', 120000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/au/14.jpg" alt="">
+                        <h3>Buki Space rock</h3>
+                        <p>142K Ariary</p>
+                        <button class='zesta' onclick="addToCart('Buki Space Rock', 142000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/au/15.jpg" alt="">
+                        <h3>koto be</h3>
+                        <p>54K Ariary</p>
+                        <button class='zesta' onclick="addToCart('Koto Be', 54000)">Ajouter au panier</button>
+                    </div>
+                    <div class="col2">
+                        <img src="../image/produit2/au/16.jpg" alt="">
+                        <h3>koto kely</h3>
+                        <p>45K Ariary</p>
+                        <button class='zesta' onclick="addToCart('Koto Kely', 45000)">Ajouter au panier</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="../js/script.js"></script>
+</body>
+</html>

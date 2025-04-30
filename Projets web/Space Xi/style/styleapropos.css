@@ -1,0 +1,109 @@
+/* le soratra any ambony sy ny background */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 2vw;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 2vw;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #c6e2ff;
+    text-shadow:
+        0 0 6px rgba(202,228,225,0.92),
+        0 0 30px rgba(202,228,225,0.34),
+        0 0 12px rgba(30,132,242,0.52),
+        0 0 21px rgba(30,132,242,0.92),
+        0 0 34px rgba(30,132,242,0.78),
+        0 0 54px rgba(30,132,242,0.92);
+    font-size: 2vw;
+    font-family: lum;
+}
+
+nav ul li a:hover{
+    color: #c6e2ff;
+    text-shadow: 
+        0 0 6px rgba(202,228,225,0.92),
+        0 0 30px rgba(224, 202, 228, 0.34),
+        0 0 12px rgba(157, 30, 242, 0.52),
+        0 0 21px rgba(157, 30, 242, 0.92),
+        0 0 34px rgba(147, 30, 242, 0.78),
+        0 0 54px rgba(182, 30, 242, 0.92);
+}
+
+.container{
+    max-width: 1400px;
+    padding-left: 25px;
+}
+
+@font-face {
+    font-family: lum;
+    src: url(../font/Monoton/Monoton-Regular.ttf);
+}
+
+@font-face {
+    font-family: font1;
+    src: url(../font/poppins-v5-latin-500.ttf);
+}
+
+body{
+    background: url(../image/bg/2.jpg);
+    background-attachment: fixed;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.profile {
+    width: 500px;
+    height: 500px;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    box-shadow: 2px 10px 12px rgba(0,0,0,0.5);  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile img {
+    max-width: 50%;
+    border-radius: 50%;
+}
+
+@font-face {
+    font-family: font1;
+    src: url(../font/ToonyLine_PERSONAL_USE_ONLY.otf);
+}
+
+.txt {
+    color: #fff;
+    font-family: font1;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: rgba(82, 7, 221, 0.993) 2px 4px 1px;
+}

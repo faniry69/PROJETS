@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0"
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+    <title>Space xi reduction</title>
+    <script src="jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="css/jetX.css">
+    <link type = "image/x-icon" rel = "shortcut icon" href ="../image/7625311_ring_planet_space_astronomy_universe_icon.png"/>
+</head>
+<body> 
+   
+  <section id ="tout">
+            <div>
+            <canvas id="canvas" height="630px" width="600px">
+             </canvas>
+        </div>
+   
+
+    <fieldset id="menu">
+
+            <h3> CHOISIR LA REDUCTION</h3>
+            <p id="text"></p>
+            <p id="gain"></p>
+            <input type="number" id="input">
+            <button id="miser">miser</button>
+            <div id="apropos">
+                <h5>Principe du jeux </h5>
+                <hr id="separation">
+                <p id="info"> 
+                    Ce jeu consiste à vous faire gagner des reductions en misant au hasard 
+                    un pourcentage de reduction . Si la valeur que vous avez entrée est égale 
+                    au niveau du pourcentage de l'explosion de la fusée (plus ou moins 2) ,
+                    vous obtenez le pourcentage d'explosion 
+                </p>
+                <h5>Comment jouer </h5>
+                <hr id="separation">
+                <p id="info">
+                    Vous avez trois tentatives . <br>
+                    Entrez un nombre entre 0 et 100 ,appuyez sur le boutton miser  pour
+                    commencer . Si vous gagnez vous obtenez le pourcentage que vous avez entré .
+                    Si après les 3 tentatives vous n'avez pas encore gagner ;Appuyez sur le boutton 
+                    revenir pour revenir a vos achats
+                </p>
+                <hr id="separation">
+            </div>
+            <div style="display: flex;justify-content: space-around;">
+                <button id="replay" style="width:100px">recommencer</button>
+                <a href="../other page/shop.html" id="retour">Retour</a>
+            </div>
+        </fieldset>
+  </section>
+</body>
+</html>
+<script src="js/jetX.js"></script>

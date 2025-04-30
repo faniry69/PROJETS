@@ -1,0 +1,140 @@
+/* le soratra any ambony sy ny background */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 2vw;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 2vw;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #c6e2ff;
+    text-shadow:
+        0 0 6px rgba(202,228,225,0.92),
+        0 0 30px rgba(202,228,225,0.34),
+        0 0 12px rgba(30,132,242,0.52),
+        0 0 21px rgba(30,132,242,0.92),
+        0 0 34px rgba(30,132,242,0.78),
+        0 0 54px rgba(30,132,242,0.92);
+    font-size: 2vw;
+    font-family: lum;
+}
+
+nav ul li a:hover{
+    color: #c6e2ff;
+    text-shadow: 
+        0 0 6px rgba(202,228,225,0.92),
+        0 0 30px rgba(224, 202, 228, 0.34),
+        0 0 12px rgba(157, 30, 242, 0.52),
+        0 0 21px rgba(157, 30, 242, 0.92),
+        0 0 34px rgba(147, 30, 242, 0.78),
+        0 0 54px rgba(182, 30, 242, 0.92);
+}
+
+.container{
+    max-width: 1400px;
+    padding-left: 25px;
+}
+
+@font-face {
+    font-family: lum;
+    src: url(../font/Monoton/Monoton-Regular.ttf);
+}
+
+@font-face {
+    font-family: font1;
+    src: url(../font/poppins-v5-latin-500.ttf);
+}
+
+body{
+    background: url(../image/bg/2.jpg);
+    background-attachment: fixed;
+}
+
+/* style de la section categories */
+
+.categories{
+    margin: 70px 0;
+}
+
+.col1{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin: auto;
+}
+
+.col1{
+    width: 100%;
+}
+
+.col1 img{
+    border-radius: 30px;
+    opacity: 0.7;
+}
+
+.container h2{
+    text-align: center;
+    font-size: 2.2rem;
+    color: #930ff7;
+    text-shadow:
+        0 0 6px rgba(202,228,225,0.92),
+        0 0 30px rgba(202,228,225,0.34),
+        0 0 12px rgba(30,132,242,0.52),
+        0 0 21px rgba(30,132,242,0.92),
+        0 0 34px rgba(30,132,242,0.78),
+        0 0 54px rgba(30,132,242,0.92);
+    margin: 50px 0;
+}
+
+/* login */
+
+.log{
+    margin-bottom: 50px;
+    border-radius: 20px;
+    width: 500px;
+    position: relative;
+    margin-left: 33%;
+    color: #fff;
+    /* background-color:#333; */
+    font-family: font1;
+}
+
+.log a{
+    text-decoration: none;
+}
+
+.ilo{
+    text-align: center;
+}
+
+.ilo p{
+    font-weight: bold;
+    text-shadow: #000 1px 1px 1px;
+}
+.bt{
+    padding-left: 35%;
+}
+
+.bi{
+    padding-left: 60%;
+}
